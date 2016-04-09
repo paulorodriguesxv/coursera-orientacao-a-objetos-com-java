@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JogoPalavrasEmbaralhadas" version="4">
+  <OBJECT>
+    <ID name="JogoPalavrasEmbaralhadas" mc="Standard.PropertyContainer" uid="f2741a06-8c6e-4538-8613-2cd86d3cc944"/>
+    <PID name="JogoPalavrasEmbaralhadas" mc="Standard.AnalystProject" uid="da4ada3c-624b-4ba9-b029-e86205d3ef2e"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[JogoPalavrasEmbaralhadas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="jogopalavrasembaralhadas" version="4">
+  <OBJECT>
+    <ID name="jogopalavrasembaralhadas" mc="Standard.Package" uid="80047a01-5131-4e1f-ac1b-6e9d9eb53cb8"/>
+    <PID name="JogoPalavrasEmbaralhadas" mc="Standard.Project" uid="adecf6b1-5f5e-4d48-8441-5225af20cab6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[jogopalavrasembaralhadas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Embaralhador" mc="Standard.Interface" uid="33d38445-cff4-4a0d-b755-913adf6e8017"/>
+        <COMPID name="EmbaralharComAsterisco" mc="Standard.Class" uid="6f9cb62c-604b-4d3f-9f4b-ab138f33d2ea"/>
+        <COMPID name="FabricaEmbaralhadores" mc="Standard.Interface" uid="9c08a675-76aa-4c4b-b500-a96415463c57"/>
+        <OBJECT>
+          <ID name="TipoEmbaralhador" mc="Standard.Enumeration" uid="f8c1c8a7-4921-458d-924d-22ea4d676b6f"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TipoEmbaralhador]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="EMBCOMNUMERO" mc="Standard.EnumerationLiteral" uid="68968c97-b4e0-489b-a8de-6ca3fc517fe3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[EMBCOMNUMERO]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="EMBCOMLETRAS" mc="Standard.EnumerationLiteral" uid="e443391b-717f-4f77-a8c4-209909b4af07"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[EMBCOMLETRAS]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Standard.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="FabricaEmbaralhadoresConcreta" mc="Standard.Class" uid="5b7b9293-1fcf-43d4-9a08-ca0c69006386"/>
+        <COMPID name="EmbaralharComLetrasInversas" mc="Standard.Class" uid="42eec840-28b4-49e5-9dab-6920c7f99798"/>
+        <COMPID name="MecanicaDoJogo" mc="Standard.Interface" uid="d36fa037-9712-42bb-abd5-74c60d3c74ae"/>
+        <COMPID name="MecanicaDoJogoFacil" mc="Standard.Class" uid="049b0222-d4cc-4e50-9433-bbbdb73ae1a7"/>
+        <COMPID name="MecanicaDoJogoNormal" mc="Standard.Class" uid="ebd737d2-4fae-4f02-9222-74f5c84556ce"/>
+        <COMPID name="MecanicaDoJogoDificil" mc="Standard.Class" uid="c040bef0-e730-4f09-829e-d94af62bf3fd"/>
+        <COMPID name="FrabicaMecanicaDoJogo" mc="Standard.Interface" uid="4e9e559f-4216-4ee3-ad19-64497139bcaa"/>
+        <COMPID name="FabricaMecanicaDoJogoConcreta" mc="Standard.Class" uid="2f1587d4-f8ee-4c68-92f6-910090b907d0"/>
+        <OBJECT>
+          <ID name="NivelDoJogo" mc="Standard.Enumeration" uid="1307fd1c-1c2a-4a81-ba65-cedb7db3da1b"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[NivelDoJogo]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="FACIL" mc="Standard.EnumerationLiteral" uid="927983d9-6e5f-4500-82ab-d122acb83079"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FACIL]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="NORMAL" mc="Standard.EnumerationLiteral" uid="7a95e674-94f7-46d7-b11b-7c9f66ee55e6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[NORMAL]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="DIFICIL" mc="Standard.EnumerationLiteral" uid="2f28ca4d-d72c-423c-90aa-54029cb4163f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[DIFICIL]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Standard.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Principal" mc="Standard.Class" uid="8fae06d7-914d-4162-8f20-bfa56badd365"/>
+        <COMPID name="BancoDePalavras" mc="Standard.Class" uid="9ad01b5b-6e08-405c-982a-3900617fca17"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="jogopalavrasembaralhadas Class diagram" mc="Standard.ClassDiagram" uid="8d98c875-0e96-4941-9e15-39b6903ae8cd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

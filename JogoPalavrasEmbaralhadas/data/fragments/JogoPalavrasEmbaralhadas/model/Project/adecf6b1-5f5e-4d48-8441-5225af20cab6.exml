@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JogoPalavrasEmbaralhadas" version="4">
+  <OBJECT>
+    <ID name="JogoPalavrasEmbaralhadas" mc="Standard.Project" uid="adecf6b1-5f5e-4d48-8441-5225af20cab6"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[JogoPalavrasEmbaralhadas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="JogoPalavrasEmbaralhadas" mc="Standard.DiagramSet" uid="2fd7d4e7-decf-4f38-8920-6f7c2fbec3dc"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="jogopalavrasembaralhadas" mc="Standard.Package" uid="80047a01-5131-4e1f-ac1b-6e9d9eb53cb8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
